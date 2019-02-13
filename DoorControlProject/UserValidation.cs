@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoorControlProject
 {
-    public class DoorControl
-    {
-
-    }
+   public class UserValidation : IUserValidation
+   {
+   }
 }

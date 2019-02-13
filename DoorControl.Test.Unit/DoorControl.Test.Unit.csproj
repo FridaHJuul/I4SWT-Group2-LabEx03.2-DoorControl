@@ -42,7 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoorControlUnitTests.cs" />
+    <Compile Include="FakeAlarm.cs" />
+    <Compile Include="FakeDoor.cs" />
+    <Compile Include="FakeEntryNotification.cs" />
+    <Compile Include="FakeUserValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoorControlProject\DoorControlProject.csproj">
+      <Project>{d2c1c655-2188-483c-8977-6ff46a561794}</Project>
+      <Name>DoorControlProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

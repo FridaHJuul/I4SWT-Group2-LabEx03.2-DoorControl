@@ -9,5 +9,14 @@ namespace DoorControl.Test.Unit
 {
    public class FakeEntryNotification : IEntryNotification
    {
+      public void NotifyEntryGranted()
+      {
+         throw new NotImplementedException();
+      }
+
+      public void NotifyEntryDenied()
+      {
+         throw new NotImplementedException();
+      }
    }
 }

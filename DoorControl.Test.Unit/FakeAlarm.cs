@@ -9,5 +9,9 @@ namespace DoorControl.Test.Unit
 {
    public class FakeAlarm : IAlarm
    {
+      public void RaiseAlarm()
+      {
+         throw new NotImplementedException();
+      }
    }
 }

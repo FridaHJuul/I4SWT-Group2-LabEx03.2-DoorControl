@@ -9,5 +9,10 @@ namespace DoorControl.Test.Unit
 {
    public class FakeUserValidation : IUserValidation
    {
+      public bool validID;
+      public bool ValidateEntryRequest(string id)
+      {
+         throw new NotImplementedException();
+      }
    }
 }

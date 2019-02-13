@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DoorControlProject
 {
-    public class DoorControl
-    {
-
-    }
+   public class DoorControl
+   {
+      public void RequestEntry(string id)
+      { }
+   }
 }

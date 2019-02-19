@@ -25,7 +25,7 @@ namespace DoorControlProject
       {
          var idStatus = _userValidation.ValidateEntryRequest(id);
 
-         if (idStatus)
+         if (idStatus) //svarer til idStatus==true
          {
             _door.Open();
             _entryNotification.NotifyEntryGranted();

@@ -30,6 +30,11 @@ namespace DoorControlProject
             _door.Open();
             _entryNotification.NotifyEntryGranted();
          }
+         else
+         {
+             
+             _entryNotification.NotifyEntryDenied();
+         }
       }
 
       public void DoorOpen()

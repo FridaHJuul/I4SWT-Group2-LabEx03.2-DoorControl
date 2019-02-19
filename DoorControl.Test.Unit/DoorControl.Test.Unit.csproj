@@ -51,10 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoorControlUnitTests.cs" />
-    <Compile Include="FakeAlarm.cs" />
-    <Compile Include="FakeDoor.cs" />
-    <Compile Include="FakeEntryNotification.cs" />
-    <Compile Include="FakeUserValidation.cs" />
+    <Compile Include="Fakes\FakeAlarm.cs" />
+    <Compile Include="Fakes\FakeDoor.cs" />
+    <Compile Include="Fakes\FakeEntryNotification.cs" />
+    <Compile Include="Fakes\FakeUserValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

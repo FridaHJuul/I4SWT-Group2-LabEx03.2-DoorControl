@@ -32,7 +32,6 @@ namespace DoorControlProject
          }
          else
          {
-             
              _entryNotification.NotifyEntryDenied();
          }
       }
